@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/subText_iv"
+            android:layout_width="734dp"
+            android:layout_height="861dp"
+            android:src="@drawable/memo_img"
+            android:layout_centerInParent="true">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/subText_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/subText_iv"
+            android:layout_alignTop="@+id/subText_iv"
+            android:layout_alignRight="@+id/subText_iv"
+            android:layout_alignBottom="@+id/subText_iv"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
